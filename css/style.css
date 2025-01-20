@@ -1,0 +1,51 @@
+/* 전역 스타일 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* 테이블 스타일 */
+.table {
+  border: 2px solid #4E61D5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f4f9;
+}
+
+.seat {
+  border-radius: 15px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  width: 60px; /* 고정된 너비 */
+  height: 60px; /* 고정된 높이 */
+  display: table-cell;
+  vertical-align: middle; /* 텍스트 가운데 정렬 */
+  line-height: 1; /* 텍스트 간격 줄이기 */
+}
+
+.seat:hover {
+  background-color: #4E61D5 !important;
+  color: #fff !important;
+  transform: scale(1.05);
+}
+
+/* 헤더 및 푸터 */
+header {
+  background: linear-gradient(90deg, #4E61D5, #394799);
+}
+
+footer {
+  background-color: #394799;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* 색상 정의 */
+.bg-light-gray {
+  background-color: #e9ecef; /* Light gray color */
+}
+
+.text-purple {
+  color: #6F42C1;
+}
