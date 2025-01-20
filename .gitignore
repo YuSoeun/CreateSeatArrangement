@@ -2,7 +2,9 @@
 
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,visualstudiocode,eclipse,intellij,java
 
-
+# Personal Info
+crawler/
+images/
 
 ### Eclipse ###
 
